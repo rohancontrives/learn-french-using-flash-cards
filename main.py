@@ -15,10 +15,6 @@ except FileNotFoundError:
 else:
     to_learn = df.to_dict(orient="records")
 
-# [
-# {'French': 'partie', 'English': 'part'}, {'French': 'histoire', 'English': 'history'},
-# ]
-
 
 # ---------------------------- PROGRAM LOGIC ------------------------------- #
 def next_card():
